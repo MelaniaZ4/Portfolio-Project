@@ -1,0 +1,10 @@
+h1 {
+  font-family: "Playfair Display", serif;
+  display: inline;
+}
+
+p {
+  font-family: "Playfair Display", serif;
+  display: block;
+  margin-top: 0;
+}
