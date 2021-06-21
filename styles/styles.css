@@ -35,6 +35,27 @@ div {
   display: block;
 }
 
+.projects h2 {
+  font-size: 64px;
+  margin-bottom: 48px;
+}
+
+.projects p {
+  font-size: 36px;
+  font-weight: 100;
+  text-align: center;
+  margin-bottom: 20px;
+  display: block;
+  font-family: var(--default-font-family);
+}
+
+.btn-branding-outline {
+  border: 1px solid var(--branding-color);
+  color: var(--branding-color);
+  display: block;
+  margin: 0 auto;
+}
+
 .container {
   margin: 0 auto;
   max-width: 100%;
@@ -53,10 +74,13 @@ div {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+  margin-top: 48px;
   font-family: var(--default-font-family);
   border: 1px solid transparent;
 }
 
 .btn {
   font-weight: 400;
+  padding: 15px 30px;
+  margin-top: 48px;
 }
