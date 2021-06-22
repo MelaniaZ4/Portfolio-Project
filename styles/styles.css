@@ -37,13 +37,12 @@ div {
 
 .projects h2 {
   font-size: 64px;
-  margin-bottom: 48px;
+  line-height: 1.2;
 }
 
 .projects p {
-  font-size: 36px;
+  font-size: 16px;
   font-weight: 100;
-  text-align: center;
   margin-bottom: 20px;
   display: block;
   font-family: var(--default-font-family);
@@ -53,7 +52,6 @@ div {
   border: 1px solid var(--branding-color);
   color: var(--branding-color);
   display: block;
-  margin: 0 auto;
 }
 
 .container {
@@ -65,6 +63,10 @@ div {
   text-align: center;
   background-color: var(--secondary-color);
   padding: 160px 20px;
+}
+
+.project-description {
+  padding: 120px 60px;
 }
 
 .contact-button {
