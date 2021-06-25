@@ -59,6 +59,10 @@ img {
   border-radius: 5px;
 }
 
+nav a {
+  margin-left: 20px;
+}
+
 .projects h2 {
   font-size: 64px;
   line-height: 1.2;
