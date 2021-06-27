@@ -6,26 +6,6 @@
   --default-font-family: "Poppins", sans-serif;
 }
 
-@media (max-width: 900px) {
-  h1 {
-    font-size: 44px;
-    line-height: 56px;
-  }
-
-  h2 {
-    font-size: 44px;
-  }
-
-  .hero {
-    padding: 80px 20px;
-  }
-
-  .content-container {
-    text-align: center;
-    padding: 0;
-  }
-}
-
 body {
   font-family: var(--default-font-family);
 }
@@ -52,7 +32,7 @@ h4 {
 
 p {
   font-family: var(--default-font-family);
-  font-size: 26px;
+  font-size: 16px;
   font-weight: bold;
   margin: 0;
   color: var(--tertiary-color);
@@ -71,7 +51,7 @@ nav a {
 }
 
 footer {
-  margin: 60px 0;
+  margin-top: 60px;
 }
 
 footer .contact-box {
@@ -206,4 +186,46 @@ footer .social-links a:hover {
   font-weight: 400;
   padding: 15px 30px;
   margin-top: 48px;
+}
+
+.container {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 56px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 44px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+
+  .content-container {
+    text-align: center;
+    padding: 0;
+  }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  .project-description h2 {
+    font-size: 44px;
+  }
+
+  .project-description .btn {
+    display: inline;
+  }
 }
