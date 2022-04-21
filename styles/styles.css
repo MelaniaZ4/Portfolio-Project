@@ -91,6 +91,11 @@ footer .social-links a:hover {
   transition: all 100ms ease-in-out;
 }
 
+.workLink {
+  margin: 0 auto !important;
+  margin-top: 20px !important;
+}
+
 .projects h2 {
   font-size: 64px;
   line-height: 1.2;
